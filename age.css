@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #120d41, #4d242b);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container h1{
+    color: #120d41;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-shadow: 1px 1px 3px #d1d1d1;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 19px;
+    border: 2px solid #120d41;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 19px;
+    background: #4d242b;
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background: #120d41;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 19px;
+    color: #120d41;
+}
+
+#result .age{
+    background: #f3f3f3;
+    padding: 20px;
+    font-size: 19px;
+    color: #120d41;
+}
+
+#nextBirthday{
+    background: #4d242b36;
+    font-size: 21px;
+    padding: 9px;
+    font-weight: 600;
+    color: #120d41;
+}
